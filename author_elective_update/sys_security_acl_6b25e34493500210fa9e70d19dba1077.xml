@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow read for sys_created_on in x_58872_needit_needit, for users with role x_58872_needit.needit_user, and if the ACL script returns true.</description>
+        <name>x_58872_needit_needit.sys_created_on</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[current.isNewRecord();
+
+// if(current.isNewRecord()){
+// 	answer=true;
+// }]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-07 07:26:57</sys_created_on>
+        <sys_id>6b25e34493500210fa9e70d19dba1077</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>x_58872_needit_needit.sys_created_on</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_security_acl_6b25e34493500210fa9e70d19dba1077</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-07 22:18:28</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>72b7ec4fdb863d90f697684e139619cc</instance_id>
+        <instance_name>dev195240</instance_name>
+        <name>sys_security_acl_6b25e34493500210fa9e70d19dba1077</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description&gt;Allow read for sys_created_on in x_58872_needit_needit, for users with role x_58872_needit.needit_user, and if the ACL script returns true.&lt;/description&gt;&lt;name&gt;x_58872_needit_needit.sys_created_on&lt;/name&gt;&lt;operation display_value="read"&gt;read&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[current.isNewRecord();
+
+// if(current.isNewRecord()){
+// 	answer=true;
+// }]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-07 07:26:57&lt;/sys_created_on&gt;&lt;sys_id&gt;6b25e34493500210fa9e70d19dba1077&lt;/sys_id&gt;&lt;sys_mod_count&gt;19&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_58872_needit_needit.sys_created_on&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_6b25e34493500210fa9e70d19dba1077&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-07 22:18:28&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1985124581</payload_hash>
+        <record_name>x_58872_needit_needit.sys_created_on</record_name>
+        <reverted_from/>
+        <source>057c345293800210fa9e70d19dba10ce</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-07 22:18:29</sys_created_on>
+        <sys_id>98c1365c935c0210fa9e70d19dba1038</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d85a6abac0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-07 22:18:29</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>50c1365cdc5c0210823bcd64e3263c38</update_guid>
+        <update_guid_history>50c1365cdc5c0210823bcd64e3263c38:-1985124581,37a17e1cbd5c021035e46a2f53ff2641:2146086351,8b813e1c8a5c0210eeeb6862a2363e54:-1096391593,a5f92a54f65c02109743296ae65ea655:-573440981,71b92e14355c02102fe04d558f581680:-1824057559,01149adcfcd8021034d1d2fd45f57737:-573440981,2dd316dcb9d802101d5507be915df86c:-1738659646,b1431a9c60d8021095722b8cb30caedf:1516084130,b013d69c51d802103a6b4ece3a40d2da:675340991,7b3dc15cded40210591ede8f10d8abc8:-573440981,8d2dc15c33d4021002520a0e0e5d0977:1979800007,2e6c851c64d40210d85e57d0753b4468:-283180022,391ccdd8ced402109c104a170e786fe2:491761976,05bb81d880d40210c4fd51112dbd38c2:-1932032206,be78895400d40210db34709420180c46:1019804754,95c9730c7b9002102dd6e881fc59a04b:-847823705,0e1977c8b2900210b63c3f0398dc7a10:1019804754,2cd87788fa9002107d14e257c1f8504d:1329596047,8ba73f481c9002106cced59fb3fbb0c4:1019804754,f4b5e784e7500210256b997aca593156:122182622</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-07 22:19:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>23bd15027b9540148ccb55c286bb62e4</sys_id>
+        <sys_metadata>6b25e34493500210fa9e70d19dba1077</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_needit.sys_created_on</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="x_58872_needit_needit">0793559a93c00210fa9e70d19dba10b7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_6b25e34493500210fa9e70d19dba1077</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_6b25e34493500210fa9e70d19dba1077">98c1365c935c0210fa9e70d19dba1038</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-07 22:19:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
